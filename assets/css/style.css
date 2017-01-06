@@ -1,0 +1,53 @@
+.header {
+    text-align: center;
+    /*background: #0090ff;*/
+    padding:50px 0;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.container-fluid:nth-child(2) {
+  background: rgba(255,255,255,0.90);
+  color: #000000;
+}
+
+.content-intro {
+  padding-top: 20px;
+}
+
+.thumbnail {
+  background: rgba(255, 255, 255, 0);
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.my-pic {
+  width: 50%;
+  height: auto;
+  border-radius: 500px;
+}
+
+.content-contact-heading, .content-contact {
+  text-align: center;
+}
+
+.content-contact img {
+  width:100px;
+  height:100px;
+}
+
+.content-contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.content-contact div:hover {
+  transition: margin-bottom 0.5s ease;
+  margin-bottom: 10px;
+}
+
+.content-contact div:active {
+  transition: margin-bottom 0.5s ease;
+  margin-bottom: 30px;
+}
